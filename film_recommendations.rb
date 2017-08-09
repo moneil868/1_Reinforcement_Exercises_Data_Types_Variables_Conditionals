@@ -14,10 +14,6 @@ print "How do you feel about Comedies? (Yes or No) "
 comedy_answer = gets.chomp.downcase
 
 
-puts "Documentary Answer is #{documentary_answer}"
-puts "Drama Answer is #{drama_answer}"
-puts "Comedy Answer is #{comedy_answer}"
-
 
 #If they answer yes to documentaries, display a message recommending the documentary to them.
 if documentary_answer == "yes"
